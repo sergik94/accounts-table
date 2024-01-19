@@ -1,1 +1,1 @@
-export * from './ProfilesList';
+export * from './CampaignList';
