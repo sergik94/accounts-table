@@ -1,0 +1,26 @@
+.page-navigation {
+  position: absolute;
+  top: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+  &__home-link {
+    width: 15px;
+    height: 15px;
+    background: url("../../assets/icons/home.svg") no-repeat center;
+  }
+
+  &__current-page-link {
+    display: flex;
+    padding-top: 3px;
+
+    &::before {
+      content: "/";
+      display: block;
+      width: 6px;
+      height: 15px;
+      margin: 0 15px;
+    }
+  }
+}

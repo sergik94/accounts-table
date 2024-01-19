@@ -1,0 +1,16 @@
+@import './assets/styles/utils/reset.scss';
+@import './assets/styles/utils/support.scss';
+@import './assets/styles/utils/typography.scss';
+
+@import './assets/styles/blocks/button.scss';
+
+.app {
+  font-family: 'Gotham Pro', sans-serif;
+  padding: 80px 0;
+  position: relative;
+
+  &__title {
+    margin-top: 40px;
+    color: red;
+  }
+}

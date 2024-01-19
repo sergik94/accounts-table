@@ -1,0 +1,12 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  height: 40px;
+  transition: 0.3s;
+
+  &:active {
+    transform: scale(0.92);
+  }
+}
